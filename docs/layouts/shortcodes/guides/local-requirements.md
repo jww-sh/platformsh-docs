@@ -4,9 +4,9 @@
 You need:
 
 - A local copy of the project repository on your computer.
-  
+
   You can get one by running the following command:
-  <code>{{ if $isSymfony }}symfony{{ else }}platform{{ end }} get {{ `{{< variable "PROJECT_ID" >}}` | .Page.RenderString }}</code>.
+  <code>{{ if $isSymfony }}symfony{{ else }}platform{{ end }} get {{ `{{< variable "PROJECT_ID" >}}` | .Page.RenderString }}</code>.<br>
   Or clone an integrated source repository
   and set the remote branch by running the following command:
   <code>{{ if $isSymfony }}symfony{{ else }}platform{{ end }} project:set-remote {{ `{{< variable "PROJECT_ID" >}}` | .Page.RenderString }}</code>.
